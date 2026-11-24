@@ -142,7 +142,27 @@ carriers = sorted(
     ].dropna().unique()
 )
 
-carrier = st.sidebar.selectbox("Airline", carriers)
+# Use names from the fuel file for the airline menu.
+try:
+    airline_lookup = pd.read_csv("T_F41SCHEDULE_P12A.csv")
+    airline_lookup.columns = airline_lookup.columns.str.strip().str.upper()
+
+    airline_names = (
+        airline_lookup[["UNIQUE_CARRIER", "CARRIER_NAME"]]
+        .dropna()
+        .drop_duplicates(subset=["UNIQUE_CARRIER"])
+        .set_index("UNIQUE_CARRIER")["CARRIER_NAME"]
+        .to_dict()
+    )
+
+except (FileNotFoundError, KeyError):
+    airline_names = {}
+
+carrier = st.sidebar.selectbox(
+    "Airline",
+    carriers,
+    format_func=lambda code: airline_names.get(code, code),
+)
 
 # Filter only after the route has been selected.
 route_data = df[
@@ -164,6 +184,50 @@ seats = route_data["SEATS"].sum()
 departures = route_data["DEPARTURES_PERFORMED"].sum()
 
 load_factor = passengers / seats
+
+# Calculate the average distance for the selected route.
+route_data["DISTANCE"] = pd.to_numeric(
+    route_data["DISTANCE"],
+    errors="coerce",
+)
+
+valid_distance = route_data[
+    route_data["DISTANCE"].notna()
+    & (route_data["DISTANCE"] > 0)
+].copy()
+
+if valid_distance.empty:
+    st.error("No valid distance is available for this route.")
+    st.stop()
+
+distance_miles = (
+    valid_distance["DISTANCE"]
+    * valid_distance["DEPARTURES_PERFORMED"]
+).sum() / valid_distance["DEPARTURES_PERFORMED"].sum()
+
+# These are illustrative assumptions, not reported fuel usage.
+fixed_fuel_gallons = st.sidebar.number_input(
+    "Fixed fuel allowance per flight (gallons)",
+    min_value=0.0,
+    value=500.0,
+    step=50.0,
+)
+
+gallons_per_mile = st.sidebar.number_input(
+    "Additional fuel per mile (gallons)",
+    min_value=0.0,
+    value=1.5,
+    step=0.1,
+)
+
+fuel_gallons = fixed_fuel_gallons + (
+    distance_miles * gallons_per_mile
+)
+
+st.sidebar.caption(
+    f"Distance: {distance_miles:,.0f} miles · "
+    f"Estimated fuel: {fuel_gallons:,.0f} gallons per flight"
+)
 
 # ---------------------------------------------------
 # 3. Financial assumptions
