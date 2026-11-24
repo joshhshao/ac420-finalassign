@@ -1,0 +1,629 @@
+YEAR,QUARTER,MONTH,UNIQUE_CARRIER,CARRIER_NAME,SDOMT_GALLONS,SDOMT_COST
+2025,1,1,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,1,1,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,1,1,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,1,1,2PQ,21 Air LLC,0.00,0.00
+2025,1,1,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,1,1,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,1,1,3M,Silver Airways,428629.00,1148140.00
+2025,1,1,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,217244.00,614411.00
+2025,1,1,5X,United Parcel Service,50445000.00,128286000.00
+2025,1,1,5Y,Atlas Air Inc.,0.00,0.00
+2025,1,1,8C,Air Transport International,0.00,0.00
+2025,1,1,9E,Endeavor Air Inc.,0.00,0.00
+2025,1,1,AA,American Airlines Inc.,172882296.00,396066127.00
+2025,1,1,ABX,ABX Air Inc,17647.00,64810.00
+2025,1,1,AS,Alaska Airlines Inc.,51441125.00,137401575.00
+2025,1,1,B6,JetBlue Airways,45650099.00,115761493.00
+2025,1,1,C5,CommuteAir LLC dba CommuteAir,643.00,643.00
+2025,1,1,DL,Delta Air Lines Inc.,175919515.00,439377178.00
+2025,1,1,F9,Frontier Airlines Inc.,27245881.00,61715905.00
+2025,1,1,FX,Federal Express Corporation,38798684.00,91124000.00
+2025,1,1,G4,Allegiant Air,17908978.00,47510768.00
+2025,1,1,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,1,1,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,1,1,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,1,1,HA,Hawaiian Airlines Inc.,15061232.00,41323236.00
+2025,1,1,KAQ,Kalitta Air LLC,0.00,0.00
+2025,1,1,KD,Western Global,0.00,0.00
+2025,1,1,KH,Aloha Air Cargo,557299.00,1200584.00
+2025,1,1,KLQ,Kalitta Charters II,0.00,0.00
+2025,1,1,L2,Lynden Air Cargo Airlines,140440.00,353606.00
+2025,1,1,M6,Amerijet International,290059.00,669891.00
+2025,1,1,MQ,Envoy Air,0.00,0.00
+2025,1,1,MX,Breeze Aviation Group DBA  Breeze,5747848.00,15916620.00
+2025,1,1,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,1,1,NC,Northern Air Cargo Inc.,252869.00,1396949.00
+2025,1,1,NK,Spirit Air Lines,32121795.00,84430888.00
+2025,1,1,OH,PSA Airlines Inc.,0.00,0.00
+2025,1,1,OO,SkyWest Airlines Inc.,2608511.00,7806805.00
+2025,1,1,PFQ,Asia Pacific,0.00,0.00
+2025,1,1,PO,Polar Air Cargo Airways,671785.00,1681517.00
+2025,1,1,PT,Piedmont Airlines,0.00,0.00
+2025,1,1,QX,Horizon Air,0.00,0.00
+2025,1,1,SY,Sun Country Airlines d/b/a MN Airlines,6141574.00,16827911.00
+2025,1,1,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,1,1,UA,United Air Lines Inc.,157246399.00,366907032.00
+2025,1,1,WI,Sky Lease Cargo,0.00,0.00
+2025,1,1,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,1,1,WN,Southwest Airlines Co.,154174740.00,360316636.00
+2025,1,1,X9,Omni Air International LLC,0.00,0.00
+2025,1,1,XP,TEM Enterprises dba  Avelo Airlines,2775373.00,7495904.00
+2025,1,1,YV,Mesa Airlines Inc.,0.00,0.00
+2025,1,1,YX,Republic Airline,49125.00,118284.00
+2025,1,1,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,1,2,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,1,2,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,1,2,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,1,2,2PQ,21 Air LLC,4149.00,11783.00
+2025,1,2,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,1,2,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,1,2,3M,Silver Airways,369210.00,942130.00
+2025,1,2,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,218264.00,603170.00
+2025,1,2,5X,United Parcel Service,50071000.00,127280000.00
+2025,1,2,5Y,Atlas Air Inc.,0.00,0.00
+2025,1,2,8C,Air Transport International,0.00,0.00
+2025,1,2,9E,Endeavor Air Inc.,0.00,0.00
+2025,1,2,AA,American Airlines Inc.,162281479.00,379548724.00
+2025,1,2,ABX,ABX Air Inc,64603.00,101347.00
+2025,1,2,AS,Alaska Airlines Inc.,46684054.00,125467266.00
+2025,1,2,B6,JetBlue Airways,43660515.00,119094958.00
+2025,1,2,C5,CommuteAir LLC dba CommuteAir,0.00,0.00
+2025,1,2,DL,Delta Air Lines Inc.,169157648.00,404457542.00
+2025,1,2,F9,Frontier Airlines Inc.,27271050.00,63836397.00
+2025,1,2,FX,Federal Express Corporation,35468568.00,83499000.00
+2025,1,2,G4,Allegiant Air,18245631.00,49274233.00
+2025,1,2,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,1,2,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,1,2,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,1,2,HA,Hawaiian Airlines Inc.,14199201.00,38312206.00
+2025,1,2,KAQ,Kalitta Air LLC,0.00,0.00
+2025,1,2,KD,Western Global,0.00,0.00
+2025,1,2,KH,Aloha Air Cargo,480780.00,1100275.00
+2025,1,2,KLQ,Kalitta Charters II,0.00,0.00
+2025,1,2,L2,Lynden Air Cargo Airlines,114982.00,297912.00
+2025,1,2,M6,Amerijet International,302587.00,766687.00
+2025,1,2,MQ,Envoy Air,0.00,0.00
+2025,1,2,MX,Breeze Aviation Group DBA  Breeze,5792543.00,16778460.00
+2025,1,2,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,1,2,NC,Northern Air Cargo Inc.,497523.00,1349675.00
+2025,1,2,NK,Spirit Air Lines,29736017.00,76481544.00
+2025,1,2,OH,PSA Airlines Inc.,0.00,0.00
+2025,1,2,OO,SkyWest Airlines Inc.,2375976.00,7173198.00
+2025,1,2,PFQ,Asia Pacific,0.00,0.00
+2025,1,2,PO,Polar Air Cargo Airways,759176.00,2014329.00
+2025,1,2,PT,Piedmont Airlines,0.00,0.00
+2025,1,2,QX,Horizon Air,0.00,0.00
+2025,1,2,SY,Sun Country Airlines d/b/a MN Airlines,6332332.00,17477235.00
+2025,1,2,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,1,2,UA,United Air Lines Inc.,146447109.00,353929177.00
+2025,1,2,WI,Sky Lease Cargo,0.00,0.00
+2025,1,2,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,1,2,WN,Southwest Airlines Co.,151001520.00,356171537.00
+2025,1,2,X9,Omni Air International LLC,0.00,0.00
+2025,1,2,XP,TEM Enterprises dba  Avelo Airlines,2499430.00,6935815.00
+2025,1,2,YV,Mesa Airlines Inc.,0.00,0.00
+2025,1,2,YX,Republic Airline,45182.00,112259.00
+2025,1,2,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,1,3,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,1,3,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,1,3,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,1,3,2PQ,21 Air LLC,0.00,0.00
+2025,1,3,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,1,3,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,1,3,3M,Silver Airways,264714.00,861956.00
+2025,1,3,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,256406.00,672126.00
+2025,1,3,5X,United Parcel Service,53586000.00,136272000.00
+2025,1,3,5Y,Atlas Air Inc.,0.00,0.00
+2025,1,3,8C,Air Transport International,0.00,0.00
+2025,1,3,9E,Endeavor Air Inc.,0.00,0.00
+2025,1,3,AA,American Airlines Inc.,194285245.00,434813823.00
+2025,1,3,ABX,ABX Air Inc,61245.00,63608.00
+2025,1,3,AS,Alaska Airlines Inc.,55620958.00,142228345.00
+2025,1,3,B6,JetBlue Airways,53428627.00,132689398.00
+2025,1,3,C5,CommuteAir LLC dba CommuteAir,0.00,0.00
+2025,1,3,DL,Delta Air Lines Inc.,186434465.00,458696763.00
+2025,1,3,F9,Frontier Airlines Inc.,33340849.00,73226544.00
+2025,1,3,FX,Federal Express Corporation,39066068.00,91156000.00
+2025,1,3,G4,Allegiant Air,25671398.00,64789096.00
+2025,1,3,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,1,3,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,1,3,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,1,3,HA,Hawaiian Airlines Inc.,15111872.00,40697965.00
+2025,1,3,KAQ,Kalitta Air LLC,0.00,0.00
+2025,1,3,KD,Western Global,0.00,0.00
+2025,1,3,KH,Aloha Air Cargo,527439.00,1193671.00
+2025,1,3,KLQ,Kalitta Charters II,0.00,0.00
+2025,1,3,L2,Lynden Air Cargo Airlines,124169.00,293935.00
+2025,1,3,M6,Amerijet International,339517.00,869621.00
+2025,1,3,MQ,Envoy Air,0.00,0.00
+2025,1,3,MX,Breeze Aviation Group DBA  Breeze,6757719.00,18503360.00
+2025,1,3,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,1,3,NC,Northern Air Cargo Inc.,634423.00,1418632.00
+2025,1,3,NK,Spirit Air Lines,37054159.00,88823594.00
+2025,1,3,OH,PSA Airlines Inc.,0.00,0.00
+2025,1,3,OO,SkyWest Airlines Inc.,2651710.00,7710128.00
+2025,1,3,PFQ,Asia Pacific,0.00,0.00
+2025,1,3,PO,Polar Air Cargo Airways,380894.00,970381.00
+2025,1,3,PT,Piedmont Airlines,0.00,0.00
+2025,1,3,QX,Horizon Air,0.00,0.00
+2025,1,3,SY,Sun Country Airlines d/b/a MN Airlines,8029714.00,20234878.00
+2025,1,3,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,1,3,UA,United Air Lines Inc.,171405769.00,400859813.00
+2025,1,3,WI,Sky Lease Cargo,0.00,0.00
+2025,1,3,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,1,3,WN,Southwest Airlines Co.,188735657.00,463003768.00
+2025,1,3,X9,Omni Air International LLC,0.00,0.00
+2025,1,3,XP,TEM Enterprises dba  Avelo Airlines,2929287.00,7559463.00
+2025,1,3,YV,Mesa Airlines Inc.,0.00,0.00
+2025,1,3,YX,Republic Airline,39607.00,95650.00
+2025,1,3,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,2,4,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,2,4,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,2,4,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,2,4,2PQ,21 Air LLC,0.00,0.00
+2025,2,4,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,2,4,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,2,4,3M,Silver Airways,247814.00,552462.00
+2025,2,4,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,251544.00,687487.00
+2025,2,4,5X,United Parcel Service,53367000.00,135681000.00
+2025,2,4,5Y,Atlas Air Inc.,0.00,0.00
+2025,2,4,8C,Air Transport International,0.00,0.00
+2025,2,4,9E,Endeavor Air Inc.,0.00,0.00
+2025,2,4,AA,American Airlines Inc.,189375729.00,404520197.00
+2025,2,4,ABX,ABX Air Inc,121310.00,90927.00
+2025,2,4,AS,Alaska Airlines Inc.,54799391.00,140168782.00
+2025,2,4,B6,JetBlue Airways,49112877.00,123164640.00
+2025,2,4,C5,CommuteAir LLC dba CommuteAir,0.00,0.00
+2025,2,4,DL,Delta Air Lines Inc.,190328569.00,433461718.00
+2025,2,4,F9,Frontier Airlines Inc.,31198933.00,67909709.00
+2025,2,4,FX,Federal Express Corporation,40422011.00,87826000.00
+2025,2,4,G4,Allegiant Air,20866094.00,52547953.00
+2025,2,4,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,2,4,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,2,4,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,2,4,HA,Hawaiian Airlines Inc.,15981908.00,39511122.00
+2025,2,4,KAQ,Kalitta Air LLC,0.00,0.00
+2025,2,4,KD,Western Global,0.00,0.00
+2025,2,4,KH,Aloha Air Cargo,574662.00,1203141.00
+2025,2,4,KLQ,Kalitta Charters II,0.00,0.00
+2025,2,4,L2,Lynden Air Cargo Airlines,144394.00,344621.00
+2025,2,4,M6,Amerijet International,323113.00,748359.00
+2025,2,4,MQ,Envoy Air,0.00,0.00
+2025,2,4,MX,Breeze Aviation Group DBA  Breeze,6711871.00,17745185.00
+2025,2,4,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,2,4,NC,Northern Air Cargo Inc.,646583.00,1510661.00
+2025,2,4,NK,Spirit Air Lines,33707057.00,84671705.00
+2025,2,4,OH,PSA Airlines Inc.,0.00,0.00
+2025,2,4,OO,SkyWest Airlines Inc.,2689727.00,7778999.00
+2025,2,4,PFQ,Asia Pacific,0.00,0.00
+2025,2,4,PO,Polar Air Cargo Airways,627504.00,1518067.00
+2025,2,4,PT,Piedmont Airlines,0.00,0.00
+2025,2,4,QX,Horizon Air,0.00,0.00
+2025,2,4,SY,Sun Country Airlines d/b/a MN Airlines,6872583.00,17318909.00
+2025,2,4,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,2,4,UA,United Air Lines Inc.,162437816.00,365136843.00
+2025,2,4,WI,Sky Lease Cargo,0.00,0.00
+2025,2,4,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,2,4,WN,Southwest Airlines Co.,180721007.00,418296078.00
+2025,2,4,X9,Omni Air International LLC,0.00,0.00
+2025,2,4,XP,TEM Enterprises dba  Avelo Airlines,2896493.00,7412744.00
+2025,2,4,YV,Mesa Airlines Inc.,0.00,0.00
+2025,2,4,YX,Republic Airline,48419.00,111730.00
+2025,2,4,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,2,5,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,2,5,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,2,5,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,2,5,2PQ,21 Air LLC,0.00,0.00
+2025,2,5,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,2,5,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,2,5,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,261804.00,646775.00
+2025,2,5,5X,United Parcel Service,51500000.00,130930000.00
+2025,2,5,5Y,Atlas Air Inc.,0.00,0.00
+2025,2,5,8C,Air Transport International,0.00,0.00
+2025,2,5,9E,Endeavor Air Inc.,0.00,0.00
+2025,2,5,AA,American Airlines Inc.,199986368.00,407912079.00
+2025,2,5,ABX,ABX Air Inc,95647.00,184089.00
+2025,2,5,AS,Alaska Airlines Inc.,60362758.00,141976177.00
+2025,2,5,B6,JetBlue Airways,50157908.00,119247860.00
+2025,2,5,C5,CommuteAir LLC dba CommuteAir,0.00,0.00
+2025,2,5,DL,Delta Air Lines Inc.,200370726.00,456686895.00
+2025,2,5,F9,Frontier Airlines Inc.,29260439.00,59303218.00
+2025,2,5,FX,Federal Express Corporation,39922482.00,81195000.00
+2025,2,5,G4,Allegiant Air,20393393.00,48199656.00
+2025,2,5,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,2,5,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,2,5,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,2,5,HA,Hawaiian Airlines Inc.,16142066.00,40545598.00
+2025,2,5,KAQ,Kalitta Air LLC,0.00,0.00
+2025,2,5,KD,Western Global,0.00,0.00
+2025,2,5,KH,Aloha Air Cargo,557625.00,1095467.00
+2025,2,5,KLQ,Kalitta Charters II,0.00,0.00
+2025,2,5,L2,Lynden Air Cargo Airlines,112568.00,250619.00
+2025,2,5,M6,Amerijet International,347246.00,774397.00
+2025,2,5,MQ,Envoy Air,0.00,0.00
+2025,2,5,MX,Breeze Aviation Group DBA  Breeze,7470797.00,18217124.00
+2025,2,5,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,2,5,NC,Northern Air Cargo Inc.,569140.00,1491837.00
+2025,2,5,NK,Spirit Air Lines,32582189.00,74876534.00
+2025,2,5,OH,PSA Airlines Inc.,0.00,0.00
+2025,2,5,OO,SkyWest Airlines Inc.,3196486.00,8870100.00
+2025,2,5,PFQ,Asia Pacific,0.00,0.00
+2025,2,5,PO,Polar Air Cargo Airways,497913.00,1177183.00
+2025,2,5,PT,Piedmont Airlines,0.00,0.00
+2025,2,5,QX,Horizon Air,0.00,0.00
+2025,2,5,SY,Sun Country Airlines d/b/a MN Airlines,6755286.00,15672263.00
+2025,2,5,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,2,5,UA,United Air Lines Inc.,171545566.00,362382524.00
+2025,2,5,WI,Sky Lease Cargo,0.00,0.00
+2025,2,5,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,2,5,WN,Southwest Airlines Co.,186155371.00,404268046.00
+2025,2,5,X9,Omni Air International LLC,0.00,0.00
+2025,2,5,XP,TEM Enterprises dba  Avelo Airlines,2657938.00,6628696.00
+2025,2,5,YV,Mesa Airlines Inc.,0.00,0.00
+2025,2,5,YX,Republic Airline,36116.00,70850.00
+2025,2,5,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,2,6,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,2,6,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,2,6,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,2,6,2PQ,21 Air LLC,0.00,0.00
+2025,2,6,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,2,6,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,2,6,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,292181.00,756228.00
+2025,2,6,5X,United Parcel Service,51860000.00,131861000.00
+2025,2,6,5Y,Atlas Air Inc.,0.00,0.00
+2025,2,6,8C,Air Transport International,0.00,0.00
+2025,2,6,9E,Endeavor Air Inc.,0.00,0.00
+2025,2,6,AA,American Airlines Inc.,202999007.00,417927767.00
+2025,2,6,ABX,ABX Air Inc,53251.00,102379.00
+2025,2,6,AS,Alaska Airlines Inc.,63071872.00,148664103.00
+2025,2,6,B6,JetBlue Airways,48989644.00,114410621.00
+2025,2,6,C5,CommuteAir LLC dba CommuteAir,0.00,0.00
+2025,2,6,DL,Delta Air Lines Inc.,203125226.00,455700005.00
+2025,2,6,F9,Frontier Airlines Inc.,29824560.00,60900946.00
+2025,2,6,FX,Federal Express Corporation,37180134.00,77310000.00
+2025,2,6,G4,Allegiant Air,25159153.00,60492304.00
+2025,2,6,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,2,6,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,2,6,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,2,6,HA,Hawaiian Airlines Inc.,16812264.00,42005955.00
+2025,2,6,KAQ,Kalitta Air LLC,0.00,0.00
+2025,2,6,KD,Western Global,0.00,0.00
+2025,2,6,KH,Aloha Air Cargo,520378.00,982428.00
+2025,2,6,KLQ,Kalitta Charters II,0.00,0.00
+2025,2,6,L2,Lynden Air Cargo Airlines,113448.00,321150.00
+2025,2,6,M6,Amerijet International,312979.00,671444.00
+2025,2,6,MQ,Envoy Air,0.00,0.00
+2025,2,6,MX,Breeze Aviation Group DBA  Breeze,7944866.00,20168697.00
+2025,2,6,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,2,6,NC,Northern Air Cargo Inc.,615874.00,1286393.00
+2025,2,6,NK,Spirit Air Lines,32244688.00,73841259.00
+2025,2,6,OH,PSA Airlines Inc.,0.00,0.00
+2025,2,6,OO,SkyWest Airlines Inc.,3253148.00,9315145.00
+2025,2,6,PFQ,Asia Pacific,0.00,0.00
+2025,2,6,PO,Polar Air Cargo Airways,30937.00,71385.00
+2025,2,6,PT,Piedmont Airlines,0.00,0.00
+2025,2,6,QX,Horizon Air,0.00,0.00
+2025,2,6,SY,Sun Country Airlines d/b/a MN Airlines,8545118.00,20850088.00
+2025,2,6,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,2,6,UA,United Air Lines Inc.,173256406.00,370153749.00
+2025,2,6,WI,Sky Lease Cargo,0.00,0.00
+2025,2,6,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,2,6,WN,Southwest Airlines Co.,195622698.00,427178272.00
+2025,2,6,X9,Omni Air International LLC,0.00,0.00
+2025,2,6,XP,TEM Enterprises dba  Avelo Airlines,2964043.00,7202743.00
+2025,2,6,YV,Mesa Airlines Inc.,0.00,0.00
+2025,2,6,YX,Republic Airline,56897.00,116512.00
+2025,2,6,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,3,7,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,3,7,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,3,7,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,3,7,2PQ,21 Air LLC,1342.00,4662.00
+2025,3,7,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,3,7,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,3,7,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,326246.00,889171.00
+2025,3,7,5X,United Parcel Service,55666000.00,141502000.00
+2025,3,7,5Y,Atlas Air Inc.,0.00,0.00
+2025,3,7,8C,Air Transport International,0.00,0.00
+2025,3,7,9E,Endeavor Air Inc.,0.00,0.00
+2025,3,7,AA,American Airlines Inc.,207532556.00,452363637.00
+2025,3,7,ABX,ABX Air Inc,123972.00,129616.00
+2025,3,7,AS,Alaska Airlines Inc.,65155226.00,170668068.00
+2025,3,7,B6,JetBlue Airways,51781706.00,131414336.00
+2025,3,7,C5,CommuteAir LLC dba CommuteAir,0.00,0.00
+2025,3,7,DL,Delta Air Lines Inc.,210585563.00,463562552.00
+2025,3,7,F9,Frontier Airlines Inc.,30508332.00,68141618.00
+2025,3,7,FX,Federal Express Corporation,40750875.00,90709000.00
+2025,3,7,G4,Allegiant Air,25771838.00,66618638.00
+2025,3,7,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,3,7,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,3,7,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,3,7,HA,Hawaiian Airlines Inc.,16894570.00,56671178.00
+2025,3,7,KAQ,Kalitta Air LLC,0.00,0.00
+2025,3,7,KD,Western Global,0.00,0.00
+2025,3,7,KH,Aloha Air Cargo,524121.00,1099177.00
+2025,3,7,KLQ,Kalitta Charters II,0.00,0.00
+2025,3,7,L2,Lynden Air Cargo Airlines,145950.00,330890.00
+2025,3,7,M6,Amerijet International,270976.00,615431.00
+2025,3,7,MQ,Envoy Air,0.00,0.00
+2025,3,7,MX,Breeze Aviation Group DBA  Breeze,8357344.00,22543624.00
+2025,3,7,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,3,7,NC,Northern Air Cargo Inc.,641525.00,1499746.00
+2025,3,7,NK,Spirit Air Lines,32203523.00,80526056.00
+2025,3,7,OH,PSA Airlines Inc.,0.00,0.00
+2025,3,7,OO,SkyWest Airlines Inc.,3568880.00,10873301.00
+2025,3,7,PFQ,Asia Pacific,0.00,0.00
+2025,3,7,PO,Polar Air Cargo Airways,0.00,0.00
+2025,3,7,PT,Piedmont Airlines,0.00,0.00
+2025,3,7,QX,Horizon Air,0.00,0.00
+2025,3,7,SY,Sun Country Airlines d/b/a MN Airlines,9155203.00,23437318.00
+2025,3,7,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,3,7,UA,United Air Lines Inc.,183670962.00,428810809.00
+2025,3,7,WI,Sky Lease Cargo,0.00,0.00
+2025,3,7,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,3,7,WN,Southwest Airlines Co.,201393667.00,467044709.00
+2025,3,7,X9,Omni Air International LLC,0.00,0.00
+2025,3,7,XP,TEM Enterprises dba  Avelo Airlines,3021787.00,8107940.00
+2025,3,7,YV,Mesa Airlines Inc.,0.00,0.00
+2025,3,7,YX,Republic Airline,41760.00,100751.00
+2025,3,7,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,3,8,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,3,8,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,3,8,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,3,8,2PQ,21 Air LLC,0.00,0.00
+2025,3,8,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,3,8,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,3,8,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,287622.00,784572.00
+2025,3,8,5X,United Parcel Service,52738000.00,134094000.00
+2025,3,8,5Y,Atlas Air Inc.,0.00,0.00
+2025,3,8,8C,Air Transport International,0.00,0.00
+2025,3,8,9E,Endeavor Air Inc.,0.00,0.00
+2025,3,8,AA,American Airlines Inc.,196438853.00,425108890.00
+2025,3,8,ABX,ABX Air Inc,103252.00,195670.00
+2025,3,8,AS,Alaska Airlines Inc.,62943878.00,159822917.00
+2025,3,8,B6,JetBlue Airways,52095262.00,128993811.00
+2025,3,8,C5,CommuteAir LLC dba CommuteAir,7039.00,26005.00
+2025,3,8,DL,Delta Air Lines Inc.,201002340.00,437635394.00
+2025,3,8,F9,Frontier Airlines Inc.,30301615.00,66502162.00
+2025,3,8,FX,Federal Express Corporation,39340154.00,85161000.00
+2025,3,8,G4,Allegiant Air,18976258.00,48114648.00
+2025,3,8,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,3,8,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,3,8,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,3,8,HA,Hawaiian Airlines Inc.,16915410.00,54739903.00
+2025,3,8,KAQ,Kalitta Air LLC,0.00,0.00
+2025,3,8,KD,Western Global,0.00,0.00
+2025,3,8,KH,Aloha Air Cargo,520139.00,1073914.00
+2025,3,8,KLQ,Kalitta Charters II,0.00,0.00
+2025,3,8,L2,Lynden Air Cargo Airlines,141860.00,341248.00
+2025,3,8,M6,Amerijet International,323928.00,763821.00
+2025,3,8,MQ,Envoy Air,0.00,0.00
+2025,3,8,MX,Breeze Aviation Group DBA  Breeze,8019493.00,21792233.00
+2025,3,8,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,3,8,NC,Northern Air Cargo Inc.,550564.00,1281494.00
+2025,3,8,NK,Spirit Air Lines,31788519.00,76477063.00
+2025,3,8,OH,PSA Airlines Inc.,0.00,0.00
+2025,3,8,OO,SkyWest Airlines Inc.,3730914.00,10967387.00
+2025,3,8,PFQ,Asia Pacific,0.00,0.00
+2025,3,8,PO,Polar Air Cargo Airways,0.00,0.00
+2025,3,8,PT,Piedmont Airlines,0.00,0.00
+2025,3,8,QX,Horizon Air,0.00,0.00
+2025,3,8,SY,Sun Country Airlines d/b/a MN Airlines,8057723.00,20144306.00
+2025,3,8,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,3,8,UA,United Air Lines Inc.,175597313.00,396471042.00
+2025,3,8,WI,Sky Lease Cargo,0.00,0.00
+2025,3,8,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,3,8,WN,Southwest Airlines Co.,177834843.00,403657475.00
+2025,3,8,X9,Omni Air International LLC,0.00,0.00
+2025,3,8,XP,TEM Enterprises dba  Avelo Airlines,3080902.00,8115101.00
+2025,3,8,YV,Mesa Airlines Inc.,0.00,0.00
+2025,3,8,YX,Republic Airline,32121.00,74223.00
+2025,3,8,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,3,9,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,3,9,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,3,9,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,3,9,2PQ,21 Air LLC,0.00,0.00
+2025,3,9,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,3,9,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,3,9,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,256108.00,674199.00
+2025,3,9,5X,United Parcel Service,51005000.00,129729000.00
+2025,3,9,5Y,Atlas Air Inc.,0.00,0.00
+2025,3,9,8C,Air Transport International,0.00,0.00
+2025,3,9,9E,Endeavor Air Inc.,0.00,0.00
+2025,3,9,AA,American Airlines Inc.,178075881.00,377234517.00
+2025,3,9,ABX,ABX Air Inc,99876.00,115862.00
+2025,3,9,AS,Alaska Airlines Inc.,54992798.00,138664147.00
+2025,3,9,B6,JetBlue Airways,40973156.00,99531122.00
+2025,3,9,C5,CommuteAir LLC dba CommuteAir,934.00,8142.00
+2025,3,9,DL,Delta Air Lines Inc.,185849333.00,432529408.00
+2025,3,9,F9,Frontier Airlines Inc.,25978987.00,55860414.00
+2025,3,9,FX,Federal Express Corporation,37410292.00,81615099.00
+2025,3,9,G4,Allegiant Air,12203799.00,30566381.00
+2025,3,9,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,3,9,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,3,9,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,3,9,HA,Hawaiian Airlines Inc.,16760205.00,50769478.00
+2025,3,9,KAQ,Kalitta Air LLC,0.00,0.00
+2025,3,9,KD,Western Global,0.00,0.00
+2025,3,9,KH,Aloha Air Cargo,431545.00,923955.00
+2025,3,9,KLQ,Kalitta Charters II,0.00,0.00
+2025,3,9,L2,Lynden Air Cargo Airlines,135970.00,316565.00
+2025,3,9,M6,Amerijet International,261974.00,585397.00
+2025,3,9,MQ,Envoy Air,0.00,0.00
+2025,3,9,MX,Breeze Aviation Group DBA  Breeze,6565323.00,17766722.00
+2025,3,9,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,3,9,NC,Northern Air Cargo Inc.,357699.00,797125.00
+2025,3,9,NK,Spirit Air Lines,27580531.00,63779836.00
+2025,3,9,OH,PSA Airlines Inc.,0.00,0.00
+2025,3,9,OO,SkyWest Airlines Inc.,3578628.00,10635153.00
+2025,3,9,PFQ,Asia Pacific,0.00,0.00
+2025,3,9,PO,Polar Air Cargo Airways,0.00,0.00
+2025,3,9,PT,Piedmont Airlines,0.00,0.00
+2025,3,9,QX,Horizon Air,0.00,0.00
+2025,3,9,SY,Sun Country Airlines d/b/a MN Airlines,5930358.00,15478234.00
+2025,3,9,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,3,9,UA,United Air Lines Inc.,162800686.00,360697486.00
+2025,3,9,WI,Sky Lease Cargo,0.00,0.00
+2025,3,9,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,3,9,WN,Southwest Airlines Co.,168508425.00,385338180.00
+2025,3,9,X9,Omni Air International LLC,0.00,0.00
+2025,3,9,XP,TEM Enterprises dba  Avelo Airlines,2182001.00,5580995.00
+2025,3,9,YV,Mesa Airlines Inc.,0.00,0.00
+2025,3,9,YX,Republic Airline,70046.00,157491.00
+2025,3,9,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,4,10,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,4,10,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,4,10,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,4,10,2PQ,21 Air LLC,0.00,0.00
+2025,4,10,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,4,10,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,4,10,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,268655.00,751081.00
+2025,4,10,5X,United Parcel Service,56495000.00,143673000.00
+2025,4,10,5Y,Atlas Air Inc.,0.00,0.00
+2025,4,10,8C,Air Transport International,0.00,0.00
+2025,4,10,9E,Endeavor Air Inc.,0.00,0.00
+2025,4,10,AA,American Airlines Inc.,196682190.00,434391791.00
+2025,4,10,ABX,ABX Air Inc,117595.00,186055.00
+2025,4,10,AS,Alaska Airlines Inc.,55317056.00,143668805.00
+2025,4,10,B6,JetBlue Airways,46041327.00,116825292.00
+2025,4,10,C5,CommuteAir LLC dba CommuteAir,934.00,37443.00
+2025,4,10,DL,Delta Air Lines Inc.,196881241.00,436053695.00
+2025,4,10,F9,Frontier Airlines Inc.,29631156.00,65269119.00
+2025,4,10,FX,Federal Express Corporation,42068045.00,96813000.00
+2025,4,10,G4,Allegiant Air,18901611.00,48883146.00
+2025,4,10,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,4,10,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,4,10,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,4,10,HA,Hawaiian Airlines Inc.,16727575.00,56044409.00
+2025,4,10,KAQ,Kalitta Air LLC,0.00,0.00
+2025,4,10,KD,Western Global,0.00,0.00
+2025,4,10,KH,Aloha Air Cargo,441475.00,949994.00
+2025,4,10,KLQ,Kalitta Charters II,0.00,0.00
+2025,4,10,L2,Lynden Air Cargo Airlines,173349.00,455101.00
+2025,4,10,M6,Amerijet International,286455.00,669051.00
+2025,4,10,MQ,Envoy Air,0.00,0.00
+2025,4,10,MX,Breeze Aviation Group DBA  Breeze,8040888.00,22095932.00
+2025,4,10,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,4,10,NC,Northern Air Cargo Inc.,393231.00,1035586.00
+2025,4,10,NK,Spirit Air Lines,26734546.00,64534158.00
+2025,4,10,OH,PSA Airlines Inc.,0.00,0.00
+2025,4,10,OO,SkyWest Airlines Inc.,3571688.00,10730971.00
+2025,4,10,PFQ,Asia Pacific,0.00,0.00
+2025,4,10,PO,Polar Air Cargo Airways,0.00,0.00
+2025,4,10,PT,Piedmont Airlines,0.00,0.00
+2025,4,10,QX,Horizon Air,0.00,0.00
+2025,4,10,SY,Sun Country Airlines d/b/a MN Airlines,7872619.00,20390082.00
+2025,4,10,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,4,10,UA,United Air Lines Inc.,173113753.00,399670750.00
+2025,4,10,WI,Sky Lease Cargo,0.00,0.00
+2025,4,10,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,4,10,WN,Southwest Airlines Co.,186625656.00,436781146.00
+2025,4,10,X9,Omni Air International LLC,0.00,0.00
+2025,4,10,XP,TEM Enterprises dba  Avelo Airlines,2592151.00,6949667.00
+2025,4,10,YV,Mesa Airlines Inc.,0.00,0.00
+2025,4,10,YX,Republic Airline,49554.00,62032.00
+2025,4,10,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,4,11,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,4,11,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,4,11,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,4,11,2PQ,21 Air LLC,0.00,0.00
+2025,4,11,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,4,11,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,4,11,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,231089.00,674012.00
+2025,4,11,5X,United Parcel Service,46721000.00,118850000.00
+2025,4,11,5Y,Atlas Air Inc.,0.00,0.00
+2025,4,11,8C,Air Transport International,0.00,0.00
+2025,4,11,9E,Endeavor Air Inc.,0.00,0.00
+2025,4,11,AA,American Airlines Inc.,180854581.00,412460500.00
+2025,4,11,ABX,ABX Air Inc,134210.00,116164.00
+2025,4,11,AS,Alaska Airlines Inc.,53379016.00,148775892.00
+2025,4,11,B6,JetBlue Airways,47435247.00,124194421.00
+2025,4,11,C5,CommuteAir LLC dba CommuteAir,9502.00,28446.00
+2025,4,11,DL,Delta Air Lines Inc.,185251078.00,422807248.00
+2025,4,11,F9,Frontier Airlines Inc.,28727818.00,66722295.00
+2025,4,11,FX,Federal Express Corporation,35657252.00,83178000.00
+2025,4,11,G4,Allegiant Air,17355674.00,46898413.00
+2025,4,11,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,4,11,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,4,11,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,4,11,HA,Hawaiian Airlines Inc.,15223327.00,54937859.00
+2025,4,11,KAQ,Kalitta Air LLC,0.00,0.00
+2025,4,11,KD,Western Global,0.00,0.00
+2025,4,11,KH,Aloha Air Cargo,370237.00,794214.00
+2025,4,11,KLQ,Kalitta Charters II,0.00,0.00
+2025,4,11,L2,Lynden Air Cargo Airlines,205675.00,544193.00
+2025,4,11,M6,Amerijet International,292269.00,683589.00
+2025,4,11,MQ,Envoy Air,0.00,0.00
+2025,4,11,MX,Breeze Aviation Group DBA  Breeze,8131533.00,22453713.00
+2025,4,11,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,4,11,NC,Northern Air Cargo Inc.,528065.00,1419765.00
+2025,4,11,NK,Spirit Air Lines,21643810.00,56888420.00
+2025,4,11,OH,PSA Airlines Inc.,0.00,0.00
+2025,4,11,OO,SkyWest Airlines Inc.,3476718.00,10853664.00
+2025,4,11,PFQ,Asia Pacific,0.00,0.00
+2025,4,11,PO,Polar Air Cargo Airways,0.00,0.00
+2025,4,11,PT,Piedmont Airlines,0.00,0.00
+2025,4,11,QX,Horizon Air,0.00,0.00
+2025,4,11,SY,Sun Country Airlines d/b/a MN Airlines,7805127.00,20605536.00
+2025,4,11,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,4,11,UA,United Air Lines Inc.,162384163.00,388957472.00
+2025,4,11,WI,Sky Lease Cargo,0.00,0.00
+2025,4,11,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,4,11,WN,Southwest Airlines Co.,171636054.00,412785575.00
+2025,4,11,X9,Omni Air International LLC,0.00,0.00
+2025,4,11,XP,TEM Enterprises dba  Avelo Airlines,2872351.00,8061057.00
+2025,4,11,YV,Mesa Airlines Inc.,0.00,0.00
+2025,4,11,YX,Republic Airline,21755.00,55989.00
+2025,4,11,ZW,Air Wisconsin Airlines Corp,0.00,0.00
+2025,4,12,1BQ,"Eastern Airlines f/k/a Dynamic Airways, LLC",0.00,0.00
+2025,4,12,1EQ,"KaiserAir, Inc.",0.00,0.00
+2025,4,12,27Q,"Jet Aviation Flight Services, Inc.",0.00,0.00
+2025,4,12,2PQ,21 Air LLC,0.00,0.00
+2025,4,12,37Q,"Eastern Air Express, LLC (EAX)",0.00,0.00
+2025,4,12,3EQ,"Scott Aviation, LLC  d/b/a  Silver Air",0.00,0.00
+2025,4,12,5V,Tatonduk Outfitters Limited d/b/a Everts Air Alaska and Everts Air Cargo,265887.00,676253.00
+2025,4,12,5X,United Parcel Service,60348000.00,153376000.00
+2025,4,12,5Y,Atlas Air Inc.,0.00,0.00
+2025,4,12,8C,Air Transport International,0.00,0.00
+2025,4,12,9E,Endeavor Air Inc.,0.00,0.00
+2025,4,12,AA,American Airlines Inc.,192517574.00,414270904.00
+2025,4,12,ABX,ABX Air Inc,184799.00,109678.00
+2025,4,12,AS,Alaska Airlines Inc.,61535480.00,151579930.00
+2025,4,12,B6,JetBlue Airways,50407354.00,119708585.00
+2025,4,12,C5,CommuteAir LLC dba CommuteAir,969.00,2919.00
+2025,4,12,DL,Delta Air Lines Inc.,191528151.00,438510833.00
+2025,4,12,F9,Frontier Airlines Inc.,30368143.00,65147341.00
+2025,4,12,FX,Federal Express Corporation,41106353.00,88413357.00
+2025,4,12,G4,Allegiant Air,21219042.00,52358851.00
+2025,4,12,G7,GoJet Airlines LLC d/b/a United Express,0.00,0.00
+2025,4,12,GCA,"Global Crossing Airlines, Inc.",0.00,0.00
+2025,4,12,GFQ,Gulf And Caribbean Cargo,0.00,0.00
+2025,4,12,HA,Hawaiian Airlines Inc.,16537227.00,52841548.00
+2025,4,12,KAQ,Kalitta Air LLC,0.00,0.00
+2025,4,12,KD,Western Global,0.00,0.00
+2025,4,12,KH,Aloha Air Cargo,420232.00,952086.00
+2025,4,12,KLQ,Kalitta Charters II,0.00,0.00
+2025,4,12,L2,Lynden Air Cargo Airlines,207151.00,467017.00
+2025,4,12,M6,Amerijet International,268139.00,653943.00
+2025,4,12,MQ,Envoy Air,0.00,0.00
+2025,4,12,MX,Breeze Aviation Group DBA  Breeze,8696874.00,24878528.00
+2025,4,12,N8,National Air Cargo Group Inc d/ba National Airlines,0.00,0.00
+2025,4,12,NC,Northern Air Cargo Inc.,407517.00,999598.00
+2025,4,12,NK,Spirit Air Lines,22487449.00,52728894.00
+2025,4,12,OH,PSA Airlines Inc.,0.00,0.00
+2025,4,12,OO,SkyWest Airlines Inc.,3643780.00,10237270.00
+2025,4,12,PFQ,Asia Pacific,0.00,0.00
+2025,4,12,PO,Polar Air Cargo Airways,0.00,0.00
+2025,4,12,PT,Piedmont Airlines,0.00,0.00
+2025,4,12,QX,Horizon Air,0.00,0.00
+2025,4,12,SY,Sun Country Airlines d/b/a MN Airlines,8675487.00,21428453.00
+2025,4,12,U7,USA Jet Airlines Inc.,0.00,0.00
+2025,4,12,UA,United Air Lines Inc.,172028177.00,380075873.00
+2025,4,12,WI,Sky Lease Cargo,0.00,0.00
+2025,4,12,WL,"Caribbean Sun Airlines, Inc. d/b/a World Atlantic Airlines",0.00,0.00
+2025,4,12,WN,Southwest Airlines Co.,181593688.00,421131766.00
+2025,4,12,X9,Omni Air International LLC,0.00,0.00
+2025,4,12,XP,TEM Enterprises dba  Avelo Airlines,3037512.00,7903741.00
+2025,4,12,YV,Mesa Airlines Inc.,0.00,0.00
+2025,4,12,YX,Republic Airline,40565.00,85175.00
+2025,4,12,ZW,Air Wisconsin Airlines Corp,0.00,0.00
