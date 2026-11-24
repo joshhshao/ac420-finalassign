@@ -104,7 +104,7 @@ quarter = st.sidebar.selectbox(
     format_func=lambda q: f"Q{q}",
 )
 
-df = df[df["QUARTER"] == quarter].copy()
+
 
 if df.empty:
     st.warning("No data is available for this quarter.")
@@ -136,6 +136,8 @@ route_data = df[
     (df["ORIGIN"] == origin)
     & (df["DEST"] == destination)
 ]
+
+df = df[df["QUARTER"] == quarter].copy()
 
 passengers = route_data["PASSENGERS"].sum()
 seats = route_data["SEATS"].sum()
