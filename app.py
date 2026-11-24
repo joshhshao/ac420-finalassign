@@ -22,7 +22,8 @@ st.info(
 # 1. Load traffic data
 # ---------------------------------------------------
 
-uploaded_file = st.sidebar.file_uploader(scheduled_passenger_segements.csv),
+uploaded_file = st.sidebar.file_uploader(
+    "Upload a BTS T-100 segment CSV",
     type="csv",
 )
 
