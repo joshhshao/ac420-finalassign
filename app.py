@@ -22,20 +22,10 @@ st.info(
 # 1. Load traffic data
 # ---------------------------------------------------
 
-uploaded_file = st.sidebar.file_uploader(
-    "Upload a BTS T-100 segment CSV",
-    type="csv",
-)
 
-if uploaded_file is None:
-    st.warning(
-        "Upload a BTS T-100 Domestic Segment CSV to get started. "
-        "See the instructions below for the required columns."
-    )
-    st.stop()
 
 try:
-    df = pd.read_csv(uploaded_file)
+   df = pd.read_csv("scheduled_passenger_segments.csv")
 
     # BTS downloads may have upper- or lowercase column names.
     df.columns = df.columns.str.strip().str.upper()
