@@ -25,12 +25,12 @@ st.info(
 
 
 try:
-   df = pd.read_csv("scheduled_passenger_segments.csv")
+    df = pd.read_csv("scheduled_passenger_segments.csv")
 
-    # BTS downloads may have upper- or lowercase column names.
+    # Standardize column names.
     df.columns = df.columns.str.strip().str.upper()
 
-    # Some downloads use DEP_PERFORMED for departures.
+    # Handle alternative names for departures.
     if "DEP_PERFORMED" in df.columns:
         df = df.rename(
             columns={"DEP_PERFORMED": "DEPARTURES_PERFORMED"}
