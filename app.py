@@ -116,11 +116,17 @@ if df.empty:
 
 st.sidebar.header("Route selection")
 
-origins = sorted(df["ORIGIN"].unique())
+# Create the origin menu from the full dataset.
+origins = sorted(df["ORIGIN"].dropna().unique())
 
 origin = st.sidebar.selectbox(
     "Origin airport",
     origins,
+)
+
+# Create the destination menu for the selected origin.
+destinations = sorted(
+    df.loc[df["ORIGIN"] == origin, "DEST"].dropna().unique()
 )
 
 destination = st.sidebar.selectbox(
@@ -128,7 +134,7 @@ destination = st.sidebar.selectbox(
     destinations,
 )
 
-# Find rows for the selected route and quarter.
+# Filter only after the route has been selected.
 route_data = df[
     (df["ORIGIN"] == origin)
     & (df["DEST"] == destination)
@@ -145,8 +151,6 @@ if route_data.empty:
 passengers = route_data["PASSENGERS"].sum()
 seats = route_data["SEATS"].sum()
 departures = route_data["DEPARTURES_PERFORMED"].sum()
-
-
 
 load_factor = passengers / seats
 
