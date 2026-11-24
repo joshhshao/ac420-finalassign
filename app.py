@@ -8,7 +8,7 @@ st.set_page_config(
 
 st.title("✈️ Airline Route Profitability")
 st.write(
-    "Explore real U.S. route traffic and estimate profitability "
+    "Explore real U.S. route traffic and estimate profitability based on 2025 data "
     "using adjustable financial assumptions."
 )
 
