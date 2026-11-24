@@ -336,4 +336,4 @@ with st.expander("How the model works"):
           revenue ÷ (available seats × revenue per passenger)
         """
     )
-```
+
