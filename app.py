@@ -25,7 +25,7 @@ st.info(
 
 
 try:
-    df = pd.read_csv("quarterly_passenger_segments.csv")
+    df = pd.read_csv("quarterly_passenger_segments_2025.csv")
 
     # Standardize column names.
     df.columns = df.columns.str.strip().str.upper()
