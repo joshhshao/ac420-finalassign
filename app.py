@@ -25,7 +25,7 @@ st.info(
 
 
 try:
-    df = pd.read_csv("scheduled_passenger_letter_airports.csv")
+    df = pd.read_csv("quarterly_passenger_segments.csv")
 
     # Standardize column names.
     df.columns = df.columns.str.strip().str.upper()
@@ -89,6 +89,25 @@ df = df[
 
 if df.empty:
     st.error("There are no usable rows in this file.")
+    st.stop()
+
+st.sidebar.header("Time period")
+
+df["QUARTER"] = pd.to_numeric(df["QUARTER"], errors="coerce")
+df = df.dropna(subset=["QUARTER"]).copy()
+
+quarters = sorted(df["QUARTER"].astype(int).unique())
+
+quarter = st.sidebar.selectbox(
+    "Select a quarter",
+    quarters,
+    format_func=lambda q: f"Q{q}",
+)
+
+df = df[df["QUARTER"] == quarter].copy()
+
+if df.empty:
+    st.warning("No data is available for this quarter.")
     st.stop()
 
 # ---------------------------------------------------
