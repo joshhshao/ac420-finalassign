@@ -133,18 +133,29 @@ destination = st.sidebar.selectbox(
     "Destination airport",
     destinations,
 )
+# Select an airline that operated the selected route.
+carriers = sorted(
+    df.loc[
+        (df["ORIGIN"] == origin)
+        & (df["DEST"] == destination),
+        "UNIQUE_CARRIER",
+    ].dropna().unique()
+)
+
+carrier = st.sidebar.selectbox("Airline", carriers)
 
 # Filter only after the route has been selected.
 route_data = df[
     (df["ORIGIN"] == origin)
     & (df["DEST"] == destination)
     & (df["QUARTER"] == quarter)
+    & (df["UNIQUE_CARRIER"] == carrier)
 ].copy()
 
 if route_data.empty:
     st.warning(
-        f"No data is available for {origin} → {destination} "
-        f"in Q{quarter}."
+        f"No traffic data is available for {carrier} on "
+        f"{origin} → {destination} in Q{quarter}."
     )
     st.stop()
 
@@ -180,19 +191,56 @@ cargo_revenue_per_flight = st.sidebar.number_input(
 
 st.sidebar.header("Cost assumptions per flight")
 
-fuel_gallons = st.sidebar.number_input(
-    "Fuel used per flight (gallons)",
-    min_value=0.0,
-    value=3500.0,
-    step=100.0,
-)
+# Load reported airline fuel costs.
+try:
+    fuel_data = pd.read_csv("T_F41SCHEDULE_P12A.csv")
+    fuel_data.columns = fuel_data.columns.str.strip().str.upper()
 
-fuel_price = st.sidebar.number_input(
-    "Fuel price per gallon ($)",
-    min_value=0.0,
-    value=3.0,
-    step=0.1,
-)
+    for column in ["YEAR", "QUARTER", "SDOMT_GALLONS", "SDOMT_COST"]:
+        fuel_data[column] = pd.to_numeric(
+            fuel_data[column],
+            errors="coerce",
+        )
+
+    # Match the selected airline and quarter in 2025.
+    matching_fuel = fuel_data[
+        (fuel_data["YEAR"] == 2025)
+        & (fuel_data["QUARTER"] == quarter)
+        & (fuel_data["UNIQUE_CARRIER"] == carrier)
+    ].copy()
+
+    # Keep rows with usable cost and gallon figures.
+    matching_fuel = matching_fuel[
+        (matching_fuel["SDOMT_GALLONS"] > 0)
+        & (matching_fuel["SDOMT_COST"] >= 0)
+    ]
+
+    total_gallons = matching_fuel["SDOMT_GALLONS"].sum()
+    total_fuel_cost = matching_fuel["SDOMT_COST"].sum()
+
+    if total_gallons > 0:
+        fuel_price = total_fuel_cost / total_gallons
+
+        st.sidebar.write(
+            f"Reported average fuel price: **${fuel_price:.2f}/gallon**"
+        )
+        st.sidebar.caption(
+            f"{carrier}, scheduled domestic service, Q{quarter} 2025. "
+            "This is an airline-wide average."
+        )
+    else:
+        st.warning(
+            f"No usable reported fuel data was found for "
+            f"{carrier} in Q{quarter} 2025."
+        )
+        st.stop()
+
+except (FileNotFoundError, KeyError) as error:
+    st.error(
+        "Could not load the fuel dataset. Check that the CSV is "
+        f"beside app.py and has the required columns. Details: {error}"
+    )
+    st.stop()
 
 crew_cost = st.sidebar.number_input(
     "Crew cost ($)",
