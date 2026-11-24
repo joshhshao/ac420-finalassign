@@ -123,25 +123,30 @@ origin = st.sidebar.selectbox(
     origins,
 )
 
-destinations = sorted(
-    df.loc[df["ORIGIN"] == origin, "DEST"].unique()
-)
-
 destination = st.sidebar.selectbox(
     "Destination airport",
     destinations,
 )
 
+# Find rows for the selected route and quarter.
 route_data = df[
     (df["ORIGIN"] == origin)
     & (df["DEST"] == destination)
-]
+    & (df["QUARTER"] == quarter)
+].copy()
 
-df = df[df["QUARTER"] == quarter].copy()
+if route_data.empty:
+    st.warning(
+        f"No data is available for {origin} → {destination} "
+        f"in Q{quarter}."
+    )
+    st.stop()
 
 passengers = route_data["PASSENGERS"].sum()
 seats = route_data["SEATS"].sum()
 departures = route_data["DEPARTURES_PERFORMED"].sum()
+
+
 
 load_factor = passengers / seats
 
