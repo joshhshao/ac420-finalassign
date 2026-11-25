@@ -12,6 +12,22 @@ st.write(
     "using adjustable financial assumptions."
 )
 
+# Fare model coefficients (estimated offline, frozen in the app)
+# DOT Consumer Airfare Report Table 1a, all 2025 quarters,
+# n = 8,126 route-quarters, R-squared = 0.272. Q1 is the baseline.
+FARE_INTERCEPT = 192.69
+FARE_PER_MILE = 0.0573
+FARE_QUARTER_ADJ = {1: 0.00, 2: -11.00, 3: -15.93, 4: 4.01}
+
+
+def estimate_fare(distance_miles, quarter):
+    """Estimated average fare for a route, from the DOT fare model."""
+    return (
+        FARE_INTERCEPT
+        + FARE_PER_MILE * distance_miles
+        + FARE_QUARTER_ADJ[quarter]
+    )
+    
 st.info(
     "This app uses reported traffic data, but the financial results "
     "are estimates. Actual route revenue and costs are not available "
