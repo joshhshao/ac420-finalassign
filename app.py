@@ -251,16 +251,38 @@ st.sidebar.caption(
 
 st.sidebar.header("Revenue assumptions")
 
-revenue_per_passenger = st.sidebar.number_input(
-    "Revenue per passenger ($)",
-    min_value=0.0,
-    value=200.0,
-    step=10.0,
+fare_source = st.sidebar.radio(
+    "Revenue per passenger source",
+    ["Regression estimate", "Manual entry"],
     help=(
-        "Estimated revenue attributable to this flight segment. "
-        "This may differ from the full ticket price."
+        "Regression estimate uses a fare model estimated on "
+        "DOT ticket data (2025). Manual entry lets you type "
+        "your own assumption."
     ),
 )
+
+if fare_source == "Regression estimate":
+    revenue_per_passenger = estimate_fare(distance_miles, quarter)
+    st.sidebar.write(
+        f"Estimated fare: **${revenue_per_passenger:,.2f}**"
+    )
+    st.sidebar.caption(
+        f"DOT fare model: $192.69 + $0.0573 x {distance_miles:,.0f} miles "
+        f"+ quarter adjustment (Q{quarter}). Estimated on 8,126 "
+        "route-quarters from DOT Table 1a, 2025."
+    )
+else:
+    revenue_per_passenger = st.sidebar.number_input(
+        "Revenue per passenger ($)",
+        min_value=0.0,
+        value=200.0,
+        step=10.0,
+        help=(
+            "Estimated revenue attributable to this flight segment. "
+            "This may differ from the full ticket price."
+        ),
+    )
+    
 
 cargo_revenue_per_flight = st.sidebar.number_input(
     "Cargo revenue per flight ($)",
@@ -464,6 +486,10 @@ cost_breakdown = pd.DataFrame(
         ],
     }
 )
+
+- **Load factor** = passengers ÷ available seats      <- line 478
+- **Estimated fare** = ...                            <- Piece 3 goes here
+- **Passenger revenue** = passengers × revenue per passenger
 
 st.bar_chart(
     cost_breakdown.set_index("Cost category")
