@@ -487,9 +487,9 @@ cost_breakdown = pd.DataFrame(
     }
 )
 
-- **Load factor** = passengers ÷ available seats      <- line 478
-- **Estimated fare** = ...                            <- Piece 3 goes here
-- **Passenger revenue** = passengers × revenue per passenger
+- **Estimated fare** = $192.69 + $0.0573 x route distance
+  + quarter adjustment (Q1 baseline; Q2 -$11.00, Q3 -$15.93,
+  Q4 +$4.01), from a regression on DOT Table 1a fares, 2025
 
 st.bar_chart(
     cost_breakdown.set_index("Cost category")
