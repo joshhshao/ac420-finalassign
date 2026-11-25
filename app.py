@@ -487,10 +487,6 @@ cost_breakdown = pd.DataFrame(
     }
 )
 
-- **Estimated fare** = $192.69 + $0.0573 x route distance
-  + quarter adjustment (Q1 baseline; Q2 -$11.00, Q3 -$15.93,
-  Q4 +$4.01), from a regression on DOT Table 1a fares, 2025
-
 st.bar_chart(
     cost_breakdown.set_index("Cost category")
 )
@@ -502,6 +498,9 @@ with st.expander("How the model works"):
     st.markdown(
         """
         - **Load factor** = passengers ÷ available seats
+         - **Estimated fare** = $192.69 + $0.0573 x route distance
+          + quarter adjustment (Q1 baseline; Q2 -$11.00, Q3 -$15.93,
+          Q4 +$4.01), from a regression on DOT Table 1a fares, 2025
         - **Passenger revenue** = passengers × revenue per passenger
         - **Cargo revenue** = departures × cargo revenue per flight
         - **Fuel cost per flight** = gallons used × price per gallon
